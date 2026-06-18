@@ -1,5 +1,6 @@
 class Persona {
-  constructor(nombre, dni, email) {
+  constructor(Id_persona, nombre, dni, email) {
+    this.Id_persona = Id_persona;
     this.nombre = nombre;
     this.dni = dni;
     this.email = email;
@@ -11,4 +12,3 @@ class Persona {
 }
 
 module.exports = Persona;
-e;
